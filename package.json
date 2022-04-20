@@ -1,0 +1,27 @@
+{
+  "name": "eris-addons",
+  "version": "1.0.0",
+  "description": "A powerful addon to the eris library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eris",
+    "discord",
+    "discordjs",
+    "eris-discord",
+    "discord-api",
+    "eris-utils",
+    "eris-addons",
+    "bot",
+    "discord-bot"
+  ],
+  "author": "Levi0100",
+  "license": "ISC",
+  "dependencies": {
+    "eris": "^0.16.1"
+  },
+  "repository": "https://github.com/Levi0100/eris-addons.git",
+  "private": false
+}
