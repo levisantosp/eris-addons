@@ -2,7 +2,7 @@
 - A powerful addon to the eris library.
 ## Installation
 ```
-npm i https://github.com/Levi0100/eris-addons
+npm i eris-addons
 ```
 ## Examples
 - Embed
