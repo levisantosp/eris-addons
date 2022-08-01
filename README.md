@@ -7,7 +7,7 @@ npm i eris-addons
 ## Examples
 - Embed
 ~~~javascript
-const ErisAddons = require('../index');
+const ErisAddons = require('eris-addons');
 const {Client} = require('eris');
 const client = new Client('bot token');
 
@@ -29,7 +29,7 @@ client.on("messageCreate", message => {
 ~~~
 - Button
 ~~~javascript
-const ErisAddons = require('../index');
+const ErisAddons = require('eris-addons');
 const {Client} = require('eris');
 const client = new Client('bot token');
 
@@ -46,7 +46,7 @@ client.on('messageCreate', message => {
 ~~~
 - Select Menu
 ~~~javascript
-const ErisAddons = require('../index');
+const ErisAddons = require('eris-addons');
 const {Client} = require('eris');
 const client = new Client('bot token');
 
