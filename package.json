@@ -1,6 +1,6 @@
 {
   "name": "eris-addons",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A powerful addon to the eris library.",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,7 @@
     "url": "https://github.com/Levi0100/eris-addons/issues"
   },
   "dependencies": {
-    "eris": "^0.16.1"
+    "dotenv": "^16.0.1"
   },
   "homepage": "https://github.com/Levi0100/eris-addons#readme"
 }
