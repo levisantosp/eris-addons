@@ -46,7 +46,7 @@ client.on('messageCreate', message => {
 ~~~
 - Select Menu
 ~~~javascript
-const ErisAddons = require('eris-addons');
+const ErisAddons = require('../index');
 const {Client} = require('eris');
 const client = new Client('bot token');
 
@@ -58,10 +58,7 @@ client.on('messageCreate', message => {
         menu.addOption('Another option', 'Click this for select', 'option value 2', '💧');
         menu.setCustomID('select');
 
-        message.channel.createMessage({
-            content: 'Click this',
-            components: [menu]
-        });
+        message.channel.createMessage(menu.build('Click this'));
     }
 });
 ~~~
