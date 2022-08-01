@@ -1,6 +1,6 @@
 {
   "name": "eris-addons",
-  "version": "1.0.3",
+  "version": "1.0.31",
   "description": "A powerful addon to the eris library.",
   "main": "index.js",
   "scripts": {
