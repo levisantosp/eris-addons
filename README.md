@@ -62,3 +62,27 @@ client.on('messageCreate', message => {
     }
 });
 ~~~
+- Attachment
+~~~javascript
+const ErisAddons = require('eris-addons');
+const {Client} = require('eris');
+const client = new Client('bot token');
+
+client.on('messageCreate', message => {
+    if(message.content.toLowerCase() === '!attachment') {
+    const Attachment = new ErisAddons.Attachment()
+    Att.setFile(canvas.toBuffer())
+    Att.setName('file.png')
+
+     const embed = new ErisAddons.Embed();
+       embed.setAuthor(message.author.username, message.author.avatarURL);
+       embed.setTitle('Title of embed');
+       embed.setDescription('Description of embed');
+       embed.setColor('0x7289DA');
+       embed.setImage('attachment://file.png')
+       embed.setFooter(message.author.username, message.author.avatarURL);
+       embed.setTimestamp();
+    
+       message.channel.createMessage({files: [Attachment], embeds: [embed] });
+    }
+});
