@@ -83,6 +83,6 @@ client.on('messageCreate', message => {
        embed.setFooter(message.author.username, message.author.avatarURL);
        embed.setTimestamp();
     
-       message.channel.createMessage({files: [Attachment], embeds: [embed] });
+       message.channel.createMessage({file: Attachment, embeds: [embed] });
     }
 });
