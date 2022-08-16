@@ -71,7 +71,7 @@ const client = new Client('bot token');
 client.on('messageCreate', message => {
     if(message.content.toLowerCase() === '!attachment') {
     const Attachment = new ErisAddons.Attachment()
-    Att.setFile(canvas.toBuffer())
+    Att.setFile('./example/file.png')
     Att.setName('file.png')
 
      const embed = new ErisAddons.Embed();
