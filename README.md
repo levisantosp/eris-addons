@@ -70,9 +70,7 @@ const client = new Client('bot token');
 
 client.on('messageCreate', message => {
     if(message.content.toLowerCase() === '!attachment') {
-    const Attachment = new ErisAddons.Attachment()
-    Att.setFile(require.resolve('./example/file.png'))
-    Att.setName('file.png')
+    const Attachment = new ErisAddons.Attachment(require.resolve('./example/file.png'),'file.png')
 
     const embed = new ErisAddons.Embed();
       embed.setAuthor(message.author.username, message.author.avatarURL);
@@ -104,9 +102,7 @@ client.on('messageCreate', async message => {
     
     //This is just an example, you can use any image editing package and any image buffer.
 
-    const Attachment = new ErisAddons.Attachment()
-    Att.setFile(canvas.toBuffer())
-    Att.setName('file.png') 
+    const Attachment = new ErisAddons.Attachment(canvas.toBuffer(),'file.png')
 
     const embed = new ErisAddons.Embed();
       embed.setAuthor(message.author.username, message.author.avatarURL);
