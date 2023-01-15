@@ -1,5 +1,5 @@
 import Button from './lib/Button'
 
-export {
+export default {
   Button
 }
