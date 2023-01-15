@@ -1,12 +1,14 @@
+interface Emoji {
+  name?: string
+  id?: string
+}
+
 export default class Button {
   public type: number
   public style!: number
   public label?: string
   public custom_id!: string
-  public emoji?: {
-    name?: string
-    id?: string
-  }
+  public emoji?: Emoji
   public url?: string
   public disabled?: boolean | null
 
@@ -61,7 +63,7 @@ export default class Button {
    * @param emoji Button emoji
    * @returns
    */
-  public setEmoji(emoji: object) {
+  public setEmoji(emoji: Emoji) {
     this.emoji = emoji
     return this
   }
