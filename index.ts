@@ -1,1 +1,5 @@
-export default 'hello world'
+import Button from './lib/Button'
+
+export {
+  Button
+}

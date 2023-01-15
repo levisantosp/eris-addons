@@ -1,5 +1,3 @@
-import { AdvancedMessageContent, FileContent } from 'eris'
-
 export default class Button {
   public type: number
   public style!: number
