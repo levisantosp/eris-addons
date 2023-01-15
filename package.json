@@ -27,7 +27,8 @@
     "url": "https://github.com/Levi0100/eris-addons/issues"
   },
   "dependencies": {
-    "dotenv": "^16.0.1"
+    "dotenv": "^16.0.1",
+    "eris": "^0.17.1"
   },
   "homepage": "https://github.com/Levi0100/eris-addons#readme"
 }
