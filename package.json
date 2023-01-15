@@ -2,7 +2,7 @@
   "name": "eris-addons",
   "version": "1.1.0",
   "description": "A powerful addon to the eris library.",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
