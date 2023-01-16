@@ -88,7 +88,7 @@ export default class Button {
   }
 
   
-  public build(content?: '') {
+  public build(content?: string) {
     return {
       content,
       components: [{
